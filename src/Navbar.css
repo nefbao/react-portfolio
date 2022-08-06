@@ -1,0 +1,7 @@
+.navigation-bar {
+  padding: 50px 120px 0 !important;
+}
+.navbar-items {
+  display: flex;
+  flex-direction: row-reverse;
+}
