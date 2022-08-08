@@ -1,0 +1,44 @@
+.Home .hi {
+  font-family: "Poppins";
+  font-size: 36px;
+  font-weight: 900 !important;
+  color: #272142;
+}
+.Home h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+}
+.Home h2 {
+  font-family: "Poppins";
+  font-size: 24px;
+  color: #272142;
+}
+.Home .projects {
+  background-color: white;
+  padding: 40px;
+}
+.introduction {
+  padding: 90px 0;
+}
+.projectsOverview {
+  font-family: "Poppins";
+  font-size: 24px;
+  color: #272142;
+  font-weight: 500;
+}
+@media (max-width: 1100px) {
+  .Home .projects {
+    padding: 10px;
+  }
+  .Home .hi {
+    font-size: 26px;
+  }
+  .Home h1 {
+    font-size: 46px;
+  }
+  .Home h2 {
+    font-size: 20px;
+  }
+}

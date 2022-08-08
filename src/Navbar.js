@@ -8,7 +8,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light navigation-bar">
         <div className="container-fluid">
           <a
-            className="navbar-brand"
+            className="navbar-brand fw-bold"
             href="/"
             title="Homepage of Nahid Norouzi"
           >
