@@ -1,0 +1,18 @@
+.email {
+  font-family: "Poppins";
+  font-size: 24px;
+  line-height: 36px;
+  margin: 20px 0;
+}
+i {
+  color: var(--branding-color);
+  background: rgba(108, 99, 255, 0.2);
+  border-radius: 100%;
+  font-size: 20px;
+  transition: ease-in-out 200ms;
+  padding: 11px;
+}
+.sourceLink {
+  color: var(--branding-color);
+  text-decoration: none;
+}

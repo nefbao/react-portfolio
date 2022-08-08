@@ -1,5 +1,11 @@
 import React from "react";
+import Footer from "./Footer";
+
 function Contact() {
-  return <h1>this is the contactpage</h1>;
+  return (
+    <div className="About">
+      <Footer />
+    </div>
+  );
 }
 export default Contact;

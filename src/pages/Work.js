@@ -1,5 +1,11 @@
 import React from "react";
+import Footer from "./Footer";
+
 function Work() {
-  return <h1>this is the workpage</h1>;
+  return (
+    <div className="About">
+      <Footer />
+    </div>
+  );
 }
 export default Work;

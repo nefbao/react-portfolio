@@ -3,6 +3,7 @@ import "./Home.css";
 import Project from "./Project";
 import dictionary from "./images/dictionary.png";
 import weather from "./images/weather.png";
+import Footer from "./Footer";
 
 function Home() {
   return (
@@ -35,6 +36,7 @@ function Home() {
           direction={"row Project d-flex flex-row"}
         />
       </div>
+      <Footer />
     </div>
   );
 }
