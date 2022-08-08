@@ -1,10 +1,10 @@
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./Layout";
-import Home from "./Home";
-import About from "./About";
-import Contact from "./Contact";
-import Work from "./Work";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Work from "./pages/Work";
 export default function App() {
   return (
     <BrowserRouter>
