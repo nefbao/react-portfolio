@@ -1,0 +1,9 @@
+.Contact p {
+  font-family: "Playfair Display";
+  font-size: 64px;
+}
+@media (max-width: 1100px) {
+  .Contact p {
+    font-size: 40px;
+  }
+}

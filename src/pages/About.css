@@ -1,0 +1,60 @@
+.introduceNahid {
+  margin: 50px 0;
+  text-align: left;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.About h1 {
+  font-family: "Playfair Display";
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.About h2 {
+  font-family: "Poppins";
+  font-size: 18px;
+  color: #272142;
+  margin-bottom: 30px;
+}
+
+.About p {
+  font-family: "Poppins";
+  font-size: 16px;
+  color: rgba(39, 33, 66, 0.7);
+  margin-bottom: 30px;
+}
+
+.About a {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+.About img {
+  max-width: 400px;
+  border-radius: 10px;
+}
+.picture {
+  text-align: right;
+}
+.certificates {
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+}
+@media (max-width: 1100px) {
+  .picture {
+    display: none;
+  }
+  .introduceNahid {
+    text-align: center;
+  }
+  .About h1 {
+    font-size: 30px;
+  }
+  .certificates {
+    padding: 20px 0px;
+  }
+  .About img {
+    max-width: 350px;
+  }
+}

@@ -18,6 +18,7 @@
 .Home .projects {
   background-color: white;
   padding: 40px;
+  border-radius: 10px;
 }
 .introduction {
   padding: 90px 0;
